@@ -43,9 +43,9 @@ const config = (function(){
 		// 阶段一
 		dialogueOpt:{ 
 			interval: 1500,  //两句话的间隔时间
-			speed: 100,   //语速
+			speed: 110,   //语速
 			color1: '#ff00ff',
-			font1: '16px Arial',
+			font1: '17px Arial',
 			color2: '#f97afb',
 			color3: 'red',
 			color4: '#ffff00',
@@ -55,18 +55,18 @@ const config = (function(){
 		},
 		// type对应上面的color与font  若没有对应的 则默认为color1或font1
 		dialogue:[
-			{type:6, name:'疯子', txt:'今天元宵节，我们去放烟花吧！'},
-			{type:2, name:'蔡同学', txt:'天还这么亮，现在放烟花也不好看。'},
-			{type:2, name:'蔡同学', txt:'再说你那有烟花吗？'},
-			{type:6, name:'疯子', txt:'我当然有烟花啦。'},
-			{type:6, name:'疯子', txt:'你那有打火机吗？'},
-			{type:2, name:'蔡同学', txt:'没有呀～'},
-			{type:6, name:'疯子', txt:'那你是怎么点燃我的心的？'},
-			{type:2, name:'蔡同学', txt:'。。。呵呵。。。'},
-			{type:2, name:'蔡同学', txt:'而且我的心并没有被你点燃呀。'},
-			{type:6, name:'疯子', txt:'别慌，我去买个打火机。'},
-			{type:2, name:'蔡同学', txt:'别买了，打火机可点不燃我的心。'},
-			{type:6, name:'疯子', txt:'不，我要为你点燃整片天空。'},
+			{type:1, name:'Feng', txt:'亲爱的丽凡同学，你我虽接触不久'},
+			{type:1, name:'Feng', txt:'但我知道你是个好女孩'},
+			{type:1, name:'Feng', txt:'我们之间有愉快的初相识？'},
+			{type:1, name:'Feng', txt:'但也有很多你对我的误解'},
+			{type:1, name:'Feng', txt:'我的确说过很多错话'},
+			{type:1, name:'Feng', txt:'嘴笨惹你不开心'},
+			{type:1, name:'Feng', txt:'但我是想一心一意对你好'},
+			{type:1, name:'Feng', txt:'所以我花了很多功夫做这个前端页面'},
+			{type:1, name:'Feng', txt:'只为我之前犯的错道歉'},
+			{type:1, name:'Feng', txt:'千言万语化成一句'},
+			{type:1, name:'Feng', txt:'将来的事老婆说了算'},
+			{type:1, name:'Feng', txt:'关灯，看看理工男的另外一面'},
 
 		],
 		// 阶段二
@@ -88,7 +88,7 @@ const config = (function(){
 			wait: undefined,  //消失后 => 炸裂  等待时间
 			color: undefined,  //烟花颜色
 		},
-		fireWords:'你的眼睛|真好看|里面有|日月冬夏|晴雨山川|但是|我的眼睛|更好看|因为|里面有你|哈哈',  // '|' 为分隔符
+		fireWords:'来个笑话|一小女孩|对妈妈说|今天过节|妈妈奇道|今天|是我过节啊|女孩说|因为|是父女节|撒花',  // '|' 为分隔符
 		// hue:210 lightness 0
 		skyColor:'hsla({hue}, 60%, {lightness}%, 0.2)',	
 		fireOpt: {
@@ -96,7 +96,7 @@ const config = (function(){
 		},
 	
 		//阶段四
-		titleWords:'祝远方的|蔡同学|元宵快乐', // '|' 为分隔符
+		titleWords:'祝可爱的|丽凡同学|女神节快乐', // '|' 为分隔符
 		titleOpt:{
 			gap: 4,
 			size: 70,  //最后字的大小
